@@ -1,0 +1,21 @@
+@namespace url('http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul');
+.tabbrowser-tab::after, .tabbrowser-tab::before {
+   border-left: none !important;
+ }
+.tab-background {	
+	border-radius: 40px 40px 0px 0px / 0% 0% 0px 0px !important;
+  -moz-transform: perspective(100px) rotateX(30deg);
+	border-color:black !important;
+  border-left: .1px solid rgba(0,0,0,.3) !important;
+  border-right: .1px solid rgba(0,0,0,.3) !important;
+  border-top: .1px solid rgba(0,0,0,.3) !important;
+  height: 3em !important;
+  width: -1em !important;
+  background-color: #b7b7b7 !important;
+  margin-top: -3px;
+  margin-bottom: -5px; 
+  padding-top: 0px;
+}
+.tab-line {
+  display: none !important;
+}
